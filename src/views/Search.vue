@@ -10,6 +10,11 @@
 import { Button, Input } from "element-ui";
 
 export default {
+   data() {
+     return {
+       input3: ''
+     }
+   },
     components: {
         [Button.name]: Button,
         [Input.name]: Input
